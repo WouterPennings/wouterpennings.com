@@ -4,7 +4,7 @@ const urls = {
     "/src": "https://github.com/WouterPennings/wouterpennings.com/"
 };
 
-window.onload = () => { 
+window.onload = function() { 
     const url = urls[window.location.pathname];
     console.log(window.location.pathname)
     console.log(url)
