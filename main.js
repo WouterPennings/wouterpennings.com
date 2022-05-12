@@ -1,19 +1,6 @@
-// const urls = {
-//     "/git": "https://github.com/wouterpennings", 
-//     "/linkedin": "https://www.linkedin.com/in/wouterpennings/",
-//     "/src": "https://github.com/WouterPennings/wouterpennings.com/"
-// };
-
-// window.onload = function() { 
-//     const url = urls[window.location.pathname];
-//     console.log(window.location.pathname)
-//     console.log(url)
-//     if(url !== undefined) {
-//         location.href = url;
-//     }
-
-//     console.info("Hey! What are you doing here in the developer tools...")
-// }
+window.onload = function() { 
+    console.info("Hey! What are you doing here in the developer tools...")
+}
 
 function GetAge() {
     const today = new Date();
