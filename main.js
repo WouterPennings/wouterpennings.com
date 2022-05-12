@@ -6,6 +6,8 @@ const urls = {
 
 window.onload = () => { 
     const url = urls[window.location.pathname];
+    console.log(window.location.pathname)
+    console.log(url)
     if(url !== undefined) {
         location.href = url;
     }
