@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+html {
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Comfortaa', cursive;
+    height: 100vh;
+
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0;
+    padding: 20vh 0 0 0 ;
+
+    max-width: 1000px;
+    width: 100%;
+
+    background-color: black;
+}
+
+main {
+    text-align: center;
+    padding: 30px;
+    width: 30rem;
+}
+
+h1 {
+    margin: 0;
+
+    height: max-content;
+
+    color: #5e17eb;
+    font-size: 75px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 35px;
+}
+
+a, button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: black;
+    border: none;
+}
+
+img {
+    width: 48px;
+    height: 48px;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+img:hover {
+    background-color: #5e17eb;
+    transition: 0.25s;
+}
+
+.info {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.contact {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    margin-bottom: 75px;
+
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {  
+    h1 {
+        font-size: 10vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    main {
+        padding: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 90%;
+    }
+}
