@@ -28,7 +28,7 @@ body {
     background-color: black;
 }
 
-main {
+.description {
     text-align: center;
     padding: 30px;
     width: 30rem;
@@ -103,7 +103,7 @@ img:hover {
         font-size: 5vw;
     }
 
-    main {
+    div.description {
         padding: 30px;
         padding-left: 10px;
         padding-right: 10px;

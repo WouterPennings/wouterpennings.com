@@ -1,3 +1,18 @@
+const urls = {
+    "/git": "https://github.com/wouterpennings", 
+    "/linkedin": "https://www.linkedin.com/in/wouterpennings/",
+    "/src": "https://github.com/WouterPennings/wouterpennings.com/"
+};
+
+window.onload = () => { 
+    const url = urls[window.location.pathname];
+    if(url !== undefined) {
+        location.href = url;
+    }
+
+    console.info("Hey! What are you doing here in the developer tools...")
+}
+
 function GetAge() {
     const today = new Date();
     const birth = new Date('2003/08/07');
