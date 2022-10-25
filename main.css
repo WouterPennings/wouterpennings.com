@@ -45,6 +45,8 @@ h2 {
 p, a, button {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: #5e17eb;
 }
 
 button {
@@ -59,13 +61,27 @@ img {
     background-color: white;
     padding: 10px;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgb(180, 180, 180);
+    /* box-shadow: 0 0 5px rgba(180, 180, 180); */
 }
 
 img:hover {
     background-color: #5e17eb;
     box-shadow: 0 0 10px #5e17eb;
     transition: 0.25s;
+}
+
+.yearlabel {
+    margin-top: 40px;
+}
+
+.line {
+    color: white;
+    width: 100%;
+    size: 10px;
+    border-radius: 2px;
+
+    /* padding-bottom: 10px; */
+    margin-bottom: 25px;
 }
 
 .info {
@@ -128,7 +144,7 @@ footer {
 }
 
 .card {
-    height: 100px;
+    height: auto;
     width: 100%;
     margin: 10px 10px 30px 10px;
     padding: 30px;
@@ -145,14 +161,6 @@ footer {
 .card-title {
     font-size: 35px;
     color: #5e17eb;
-}
-
-.card-subtitle {
-
-}
-
-.card-body {
-
 }
 
 @media (max-width: 800px) {  

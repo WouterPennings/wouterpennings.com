@@ -11,37 +11,89 @@
     <body>
         <h1>My Portfolio</h1>
         <h2 class="description">Here are my personal projects, work and achievements sorted chronologically</h2>
-        <br>
+        <h2>Go to my <a href="https://www.github.com/WouterPennings" target="_blank">GitHub</a> for more smaller projects</h2>
+        <h3 class="yearlabel" id="2018">2018</h3>
+        <hr class="line"/>
+
         <div class="card">
             <div class="card-title">Robot car with PID</div>
-            <div class="card-subtitle">November 2018 - Febuari 2022</div>
+            <div class="card-subtitle">December 2018 - Febuari 2020</div>
             <div class="card-body">
                 As a final research project for high-school, did I create a robot with an Arduino, gyroscope and accelerometer.
                 The end result was a robot that drove in a straight line, and corrected itself when
-                it slipped or otherwise just drifted off course. It worked by feeding the
-                measurements from the sensors into a PID which calculated adjustments in motor
-                speed to get the robot back in the correct course
+                it slipped or otherwise just drifted off course. This system was written using a PID
             </div>
         </div>
+
+        <h3 class="yearlabel" id="2021">2021</h3>
+        <hr class="line"/>
+
         <div class="card">
             <div class="card-title">Website Municipality</div>
             <div class="card-subtitle">March 2021 - June 2021</div>
             <div class="card-body">
-                A school project with 6 students where wrote a Reddit like social media platfrom in ASP.net.
-                The platform was for a party in the municipality to comunicate better with the residence of the town.
+                A school project with 6 students where wrote a Reddit like social media platfrom in ASP.net MVC.
+                The platform was for a party in the municipality with the goal to comunicate better with the residence of the town.
             </div>
         </div>
+
         <div class="card">
             <div class="card-title">The Loop Programming Language</div>
             <div class="card-subtitle">September 2021 - Ongoing</div>
+            <div class="card-subtitle">Website: <a href="https://looplang.org" target="_blank">looplang.org</a></div>
             <div class="card-body">
                 Creating a Just-In-Time compiled programming language called Loop. Syntax and semantics is similar to something like GoLang and Python.
                 The Language is implemented in Rust and the compilation target currently is LuaJIT.
             </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Developing and coaching IT classes</div>
+            <div class="card-subtitle">Oktober 2021 - Ongoing</div>
             <div class="card-body">
-                During the development of the project we worked with a lot of people with different specialisations:
-                media design, infrastructure, software engineering, to name a few.
+                Developing the IT program for high school students. I am also coaching students from different levels at school, to collaborate and learn new skills in IT
             </div>
+        </div>
+
+        <h3 class="yearlabel" id="2022">2022</h3>
+        <hr class="line"/>
+
+        <div class="card">
+            <div class="card-title">Wordle Clone</div>
+            <div class="card-subtitle">May 2022</div>
+            <div class="card-subtitle">Website: <a href="https://wouterpennings.com/wordle" target="_blank">wouterpennings.com/wordle</a></div>
+            <div class="card-body">
+                A spontanious challange to make an acceptable Wordle Clone in two days. It is made with pure HTML, CSS and JavaScript. 
+                I also create my (admittedly mediocre) own word list. 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">TNO Internship</div>
+            <div class="card-subtitle">September 2022 - Febuari 2023</div>
+            <div class="card-subtitle">Website: <a href="https://tno.nl" target="_blank">tno.nl</a></div>
+            <div class="card-body">
+                Designing and developing the receptor module for Urban Strategy (a TNO Project). 
+                The receptors are used by the air quality and noise modules to calculate 
+                the values of different substances and to calculate the noise and air exposure in urban environments.
+            </div>
+        </div>
+
+        <div class="contact" style="margin-top: 50px; padding-bottom: 80px">
+            <a href="https://www.github.com/WouterPennings" target="_blank">
+                <img title="Github" src="../img/githubLogo.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/wouter-pennings-6808211b5/" target="_blank">
+                <img  title="Linkedin" src="../img/linkedinLogo.png" alt="\Linkedin">
+            </a>
+            <a href="mailto:wouter.pennings@outlook.com?subject = Feedback&body = Message">
+                <img title="Mail" src="../img/mailLogo.png" alt="Email">
+            </a>
+            <form method="get" action="resume.pdf">
+                <button type="submit">
+                <img title="Resume" src="../img/resumeLogo.png" alt="Resume">
+                </button>
+            </form>
         </div>
     </body>
 </html>
